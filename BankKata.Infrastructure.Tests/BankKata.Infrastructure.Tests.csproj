@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AwesomeAssertions" Version="9.3.0" />
+        <PackageReference Include="Testcontainers.MsSql" Version="4.9.0" />
+        <PackageReference Include="TUnit" Version="1.6.5"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BankKata.Infrastructure\BankKata.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

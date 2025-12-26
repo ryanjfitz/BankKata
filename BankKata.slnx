@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BankKata.Console/BankKata.Console.csproj" />
+  <Project Path="BankKata.Core.Tests/BankKata.Core.Tests.csproj" />
+  <Project Path="BankKata.Core/BankKata.Core.csproj" />
+  <Project Path="BankKata.Infrastructure.Tests/BankKata.Infrastructure.Tests.csproj" />
+  <Project Path="BankKata.Infrastructure/BankKata.Infrastructure.csproj" />
+</Solution>
